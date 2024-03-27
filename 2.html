@@ -9,6 +9,13 @@
                 color:black; /* Property: Property Value */
                 text-decoration: none; /* Remove any style of hypertexts */
             }
+            #active{
+                color:red;
+            }
+            .saw {
+                color:gray;
+            }
+            
             h1 {
                 font-size: 45px;
                 text-align: center;
@@ -19,8 +26,9 @@
     <body>
         <h1><a href="index.html" title="Link to WEB">WEB</a></h1>
         <ol>
-            <li><a href="1.html" title="Link to HTML">HTML</a></li>
-            <li><a href="2.html" title="Link to CSS" style="color:red; text-decoration:underline">CSS</a></li>
+            <li><a href="1.html" title="Link to HTML" class="saw">HTML</a></li>
+            <!-- <li><a href="2.html" title="Link to CSS" style="color:red; text-decoration:underline">CSS</a></li> -->
+            <li><a href="2.html" title="Link to CSS" class="saw" id="active">CSS</a></li>
             <li><a href="3.html" title="Link to JavaScript">JavaScript</a></li>
         </ol>
 
